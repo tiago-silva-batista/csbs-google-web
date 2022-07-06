@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "roboto";
+    src: local("roboto.ttf"),
+    local("./assets/roboto.ttf"),
+    format("truetype");
+}
+
+*{
+    font-family: "roboto";
+    font-size: 13px;
+    color: #fff;
+}
+
+body{
+    background-color: #35363a;
+}
+
+@media (min-width: 768px){
+    body{
+        background-color: red;
+    }
+}
+
+@media (min-width: 1024px){
+    body{
+        background-color: green;
+    }
+}
